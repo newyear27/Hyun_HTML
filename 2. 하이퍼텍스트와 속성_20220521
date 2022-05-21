@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>하이퍼텍스트와 속성</title>
+</head>
+<body>
+<p>저번 시간에는 우리가 <strong>strong 태그</strong>를 이용하여 우리가 어떻게 글자굵기를 표시하는지에 대해서 배워보았다.</p>
+<br>
+<p>오늘은 하이퍼텍스트와 속성에 대해 알아보겠다.</p>
+<p><strong>하이퍼텍스트</strong>는 링크를 누르면, 다른 사이트 정보로 바로 이동하는 것을 말한다. 즉, <strong>링크와 링크가 서로 연결되는 것을 하이퍼텍스트라고 한다.</strong>
+<p>하이퍼링크를 걸려면 <strong>'a href=링크'</strong>를 입력하면 링크를 눌렀을 때, 다른 링크로 연결이 가능하다.</p>
+
+<br>
+<p>예시를 해보자.</p>
+<p>html를 적고, 공부 사이트로 연결하려고 할 때, 링크를 연결해보겠다. <a href=https://developer.mozilla.org/ko/docs/Web/HTML>html</a> << 그럼 홈페이지 링크가 연결된 것을 확인할 수 있다.</p>
+<p>하지만 새로운 탭에서 열리는 것이 아니라, 기존에 있던 홈페이지에서 열리는 것을 볼 수가 있는데, 새로운 홈페이지에서 열고 싶을 때, 그저 사이트 주소 뒤에 'target="_blank"'를 입력하면 된다. 그럼 다시 해보겠다.</p>
+
+<br>
+html을 공부하기 위해서는 이 사이트에서 공부하는 것도 좋은 방법이에요. <a href="https://developer.mozilla.org/ko/docs/Web/HTML" target="_blank">html</a></p>
+<p>그대로 복사해서 웹을 열면, 새로운 탭에서 링크가 열리는 것을 확인할 수 있다.</p>
+
+<br>
+<p>그럼 링크로 연결할 수 있는 단어에 마우스 커서를 올려놓았을 때, 새로운 단어를 표현하고 싶으면, 똑같이 링크 뒤에 '<title="html의 공부 사이트">'라고 적으면 된다.</p>
+<p>다시 해보겠다!</p>
+
+<br>
+<p>html을 공부하기 위해서는 이 사이트도 도움이 됩니다. <a href="https://developer.mozilla.org/ko/docs/Web/HTML" title="html의 공부사이트" target="_blank" >html</a>
+<p>링크를 복사해서 보면, 커서를 갖다뒀을 때, 새로운 메모가 뜨는 것을 볼 수가 있다.</p>
+
+</body>
+</html>
